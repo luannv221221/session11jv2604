@@ -1,0 +1,15 @@
+package com.ra.demo.demo02;
+
+public class Rectangle implements IShape {
+    private double width;
+    private double height;
+
+    public Rectangle(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+    @Override
+    public double calArea() {
+        return width * height;
+    }
+}
